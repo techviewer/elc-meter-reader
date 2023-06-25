@@ -7,10 +7,11 @@ Bu projede elektronik elektrik sayaçlarından belli periyotlarla alınan verile
   * [Gereksinimler](#gereksinimler)
   * [Kurulum](#kurulum)
   * [Kullanım](#kullanım)
+  * [Kural Motoru](#kural-motoru)
   * [İletişim](#İletişim)
 
 ## Hakkında
-Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veri tabanına kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir veri tabanı oluşturmaktadır. Hangi türden sayaç kullanılacak ise [main.py](main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir.
+Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veri tabanına kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir veri tabanı oluşturmaktadır. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir.
 
 ## Gereksinimler
 | Derleyici | Sürüm |
@@ -29,10 +30,13 @@ Projenin bulunduğu konumda bir terminal oluşturup aşağıdaki komut ile gerek
 ```shell
 python -m pip install -U -r requirements.txt
 ```
-Daha sonra [main.py](main.py) dosyasındaki "[METER_PHASE_TYPE](main.py#L26)" değişkenine sayaç bir fazlı ise 1, üç fazlı ise 3 ataması yapılması yeterlidir.
+Daha sonra [main.py](./main.py) dosyasındaki "[METER_PHASE_TYPE](./main.py#L26)" değişkenine sayaç bir fazlı ise 1, üç fazlı ise 3 ataması yapılması yeterlidir.
 
 ## Kullanım
 Kullanım
+
+## Kural Motoru
+![kural motoru](./assets/image-1.jpg)
 
 ## İletişim
 İletişim
