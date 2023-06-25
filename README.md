@@ -36,7 +36,8 @@ Daha sonra [main.py](./main.py) dosyasındaki "[METER_PHASE_TYPE](./main.py#L26)
 Kullanım
 
 ## Kural Motoru
-![kural motoru](./assets/image-1.jpg)
+![üç fazlı sayaç için oluşturulmuş kural motoru](./assets/image-1.jpg)
+Endüktif veya kapasitif uygunsuz tüketim gerçekleştiğinde alarm vermektedir.
 
 ## İletişim
 İletişim
