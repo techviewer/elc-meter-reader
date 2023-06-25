@@ -9,7 +9,7 @@ Bu projede elektronik elektrik sayaçlarından belli periyotlarla alınan verile
   * [Kullanım](#kullanım)
 
 ## Hakkında
-Sayaç okuma verileri Raspberry Pi üzerinde koşan SQLite3 veri tabanına kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir veri tabanı oluşturmaktadır. Hangi türden sayaç kullanılacak ise mainde sayaç türü belirtilmesi diğer modüllerin import edilmesini tetikleyecektir.
+Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veri tabanına kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir veri tabanı oluşturmaktadır. Hangi türden sayaç kullanılacak ise mainde sayaç türü belirtilmesi diğer modüllerin import edilmesini tetikleyecektir.
 
 ## Gereksinimler
 | Derleyici | Sürüm |
@@ -21,7 +21,7 @@ Sayaç okuma verileri Raspberry Pi üzerinde koşan SQLite3 veri tabanına kayı
 | [pySerial](https://pypi.org/project/pyserial/3.5/) | `3.5` |
 
 ## Kurulum
-Sadece [main.py](main.py) dosyasındaki "[METER_PHASE_TYPE](main.py#L26)" değişkenine sayaç 1 fazlı ise 1, 3 fazlı ise 3 ataması yapılması yeterlidir.
+Sadece [main.py](main.py) dosyasındaki "[METER_PHASE_TYPE](main.py#L26)" değişkenine sayaç bir fazlı ise 1, üç fazlı ise 3 ataması yapılması yeterlidir.
 
 ## Kullanım
 
