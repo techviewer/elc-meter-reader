@@ -40,5 +40,8 @@ Kullanım
 ![üç fazlı sayaç için oluşturulmuş kural motoru](./assets/image-1.jpg)
 Endüktif veya kapasitif uygunsuz tüketim gerçekleştiğinde alarm vermektedir.
 
+## Örnek Görsel Arayüz
+![arayüz](./assets/image-2.png)
+
 ## İletişim
 İletişim
