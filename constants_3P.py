@@ -40,7 +40,7 @@ ATTR_2 = "KuruluPDurumuLT50kW"
 #oluşturulacak veri tabanı dosyası ismi tanımlanır
 DATABASE_NAME = r'electricMeter_3P.db'
 #okunan anlık verilerin olası durumlar için inceleneceği metin dosyası isimi tanımlanır
-TEXT_NAME = 'Elektirik Sayacı Anlık Veri.txt'
+TEXT_NAME = 'Elektrik Sayacı Anlık Veri.txt'
 # 3 faz dört telli endüktif reaktif (kombi) sayaç
 METER_ID = "SAYAC_SERİ_NO" 
 #veri tabanında sayaç bilgileri tutulacak kullanıcı ismi tanımlanır
