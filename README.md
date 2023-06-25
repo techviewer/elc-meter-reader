@@ -34,5 +34,5 @@ Daha sonra [main.py](main.py) dosyasındaki "[METER_PHASE_TYPE](main.py#L26)" de
 ## Kullanım
 Kullanım
 
-# İletişim
+## İletişim
 İletişim
