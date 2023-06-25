@@ -18,10 +18,15 @@ Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde ko�
 
 | Kütüphane | Sürüm |
 | :- | :-: |
+| [pip](https://pypi.org/project/pip/) | `21.3+` |
 | [pySerial](https://pypi.org/project/pyserial/3.5/) | `3.5` |
 
 ## Kurulum
-Sadece [main.py](main.py) dosyasındaki "[METER_PHASE_TYPE](main.py#L26)" değişkenine sayaç bir fazlı ise 1, üç fazlı ise 3 ataması yapılması yeterlidir.
+Projenin bulunduğu konumda bir terminal oluşturup aşağıdaki komut ile gerekli kütüphaneleri yükleyin.
+```shell
+python -m pip install -r requirements.txt
+```
+Daha sonra [main.py](main.py) dosyasındaki "[METER_PHASE_TYPE](main.py#L26)" değişkenine sayaç bir fazlı ise 1, üç fazlı ise 3 ataması yapılması yeterlidir.
 
 ## Kullanım
 
