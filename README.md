@@ -7,7 +7,7 @@ Bu projede elektronik elektrik sayaçlarından belli periyotlarla alınan verile
   * [Gereksinimler](#gereksinimler)
   * [Kurulum](#kurulum)
   * [Kullanım](#kullanım)
-  * [İletişim](#iletişim)
+  * [İletişim](#İletişim)
 
 ## Hakkında
 Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veri tabanına kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir veri tabanı oluşturmaktadır. Hangi türden sayaç kullanılacak ise [main.py](main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir.
