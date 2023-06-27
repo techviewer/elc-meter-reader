@@ -1,5 +1,5 @@
 # elc-meter-reader
-Bu projede elektronik elektrik sayaçlarından belli periyotlarla alınan verileri IoT çözüm platformu olan [ThingsBoard](https://thingsboard.io/) üzerinden kullanıcılara görsel veri ve analizler gösterilmesi amaçlanmıştır.
+Bu projede üç fazlı aktif-reaktif (kombi) elektronik elektrik sayaçlarından belli periyotlarla alınan verileri IoT çözüm platformu olan [ThingsBoard](https://thingsboard.io/) üzerinden kullanıcılara görsel veri ve analizler gösterilmesi amaçlanmıştır. Ayrıca hazırlanan demo yazılım içerisinde bir fazlı aktif elektronik elektrik sayaçlarından okuma yapılmasını sağlayan modül de eklenmiştir.
 
 ## İçindekiler
 * [elc-meter-reader](#elc-meter-reader)
@@ -11,7 +11,7 @@ Bu projede elektronik elektrik sayaçlarından belli periyotlarla alınan verile
   * [İletişim](#İletişim)
 
 ## Hakkında
-Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veri tabanına kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir veri tabanı oluşturmaktadır. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir.
+Bu çalışmada sayaç verileri IEC 62056-21 standardı Mod C protokolüne ile okuması gerçekleştirilmiştir. Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veritabanı yönetim sistemine kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir vertabanı yönetim sistemi oluşturulmuştur. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir. 
 
 ## Gereksinimler
 | Derleyici | Sürüm |
