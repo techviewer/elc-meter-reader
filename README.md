@@ -35,6 +35,9 @@ Daha sonra [main.py](./main.py) dosyasındaki "[METER_PHASE_TYPE](./main.py#L26)
 ## Kullanım
 Kullanım
 
+## Sayaç Veri Okuması
+Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait ![sıralama (sequence) diyagramı](./assets/)
+
 ## Kural Motoru
 Üç fazlı sayaç için oluşturulmuş kural motoru:
 ![üç fazlı sayaç için oluşturulmuş kural motoru](./assets/image-1.jpg)
