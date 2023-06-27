@@ -11,7 +11,7 @@ Bu projede üç fazlı aktif-reaktif (kombi) elektronik elektrik sayaçlarından
   * [İletişim](#İletişim)
 
 ## Hakkında
-Bu çalışmada sayaç verileri IEC 62056-21 standardı Mod C protokolüne ile okuması gerçekleştirilmiştir. Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veritabanı yönetim sistemine kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir vertabanı yönetim sistemi oluşturulmuştur. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir. 
+Bu çalışmada elektrik sayaç verileri IEC 62056-21 standardı Mod C protokolüne ile okuması gerçekleştirilmiştir. Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veritabanı yönetim sistemine kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir vertabanı yönetim sistemi oluşturulmuştur. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir. 
 
 ## Gereksinimler
 | Derleyici | Sürüm |
@@ -35,8 +35,11 @@ Daha sonra [main.py](./main.py) dosyasındaki "[METER_PHASE_TYPE](./main.py#L26)
 ## Kullanım
 Kullanım
 
+## Donanım Bağlantısı
+![Elektirik sayacı ile Raspberry Pi arasındaki bağlantı](./assets).
+
 ## Sayaç Veri Okuması
-Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait ![sıralama (sequence) diyagramı](./assets/)
+Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait ![sıralama (sequence) diyagramı](./assets/) ve ![açıklaması](./assets)
 
 ## Kural Motoru
 Üç fazlı sayaç için oluşturulmuş kural motoru:
