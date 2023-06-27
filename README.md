@@ -44,4 +44,4 @@ Endüktif veya kapasitif uygunsuz tüketim gerçekleştiğinde alarm vermektedi
 ![arayüz](./assets/image-2.png)
 
 ## İletişim
-İletişim
+koray.cn@hotmail.com
