@@ -13,7 +13,7 @@ Bu projede üç fazlı aktif-reaktif (kombi) elektronik elektrik sayaçlarından
 ## Hakkında
 Bu çalışma dönem projesi kapsamında yapılan bir araştırma ve geliştirme uygulamasıdır. Konusu ise "Nesnelerin İnterneti ile reaktif enerji tüketiminin uzaktan izlenmesi ve veri analizi"dir.
 
-Bu süreçte emeğinden ötürü proje danışmanım ![Prof. Dr. Sedat AKLEYLEK](https://akademik.yok.gov.tr/AkademikArama/view/viewAuthor.jsp)'e teşekkür ederim. 
+Bu süreçte emeğinden ötürü proje danışmanım [Prof. Dr. Sedat AKLEYLEK](https://akademik.yok.gov.tr/AkademikArama/view/viewAuthor.jsp)'e teşekkür ederim. 
 
 Bu çalışmada elektrik sayaç verileri IEC 62056-21 standardı Mod C protokolüne ile okuması gerçekleştirilmiştir. Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veritabanı yönetim sistemine kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir vertabanı yönetim sistemi oluşturulmuştur. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir.
 Kullanılan yönteme ait veri akış diyagramı:
@@ -54,7 +54,7 @@ Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına a
 
 ![sıralama (sequence) diyagramı](./assets/image-5.png) ve ![açıklaması](./assets/image-4.png)
 
-Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenmek üzere ![metin dosyası](./Elektrik_Sayacı_Anlık_Veri.txt) üzerine yazılmaktadır. Ayrıca okunan anlık veriler SQLite3 veritabanı yönetim sistemine kayıt olarak depolanmaktadır. Kayıt olarka eklenen verilere ait ekran görüntüsü:
+Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenmek üzere [metin dosyası](./Elektrik_Sayacı_Anlık_Veri.txt) üzerine yazılmaktadır. Ayrıca okunan anlık veriler SQLite3 veritabanı yönetim sistemine kayıt olarak depolanmaktadır. Kayıt olarka eklenen verilere ait ekran görüntüsü:
 
 ![](./assets/image-11.png)
 
