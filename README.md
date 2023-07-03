@@ -12,7 +12,8 @@ Bu projede üç fazlı aktif-reaktif (kombi) elektronik elektrik sayaçlarından
 
 ## Hakkında
 Bu çalışmada elektrik sayaç verileri IEC 62056-21 standardı Mod C protokolüne ile okuması gerçekleştirilmiştir. Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veritabanı yönetim sistemine kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir vertabanı yönetim sistemi oluşturulmuştur. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir.
-Kullanılan yönteme ait ![veri akış diyagramı](./assets/image-1.png)
+Kullanılan yönteme ait veri akış diyagramı:
+![veri akış diyagramı](./assets/image-1.png)
 
 ## Gereksinimler
 | Derleyici | Sürüm |
