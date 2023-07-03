@@ -43,7 +43,8 @@ Elektirik sayacı ile Raspberry Pi arasındaki bağlantı:
 
 ## Sayaç Veri Okuması
 Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait ![sıralama (sequence) diyagramı](./assets/image-5.png) ve ![açıklaması](./assets/image-4.png)
-Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenmek üzere ![metin dosyası](./Elektrik_Sayacı_Anlık_Veri.txt) üzerine yazılmaktadır. Ayrıca okunan anlık veriler SQLite3 veritabanı yönetim sistemine kayıt olarak depolanmaktadır. ![Kayıt olarka eklenen verilere ait ekran görüntüsü](./assets/image-11.png)
+Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenmek üzere ![metin dosyası](./Elektrik_Sayacı_Anlık_Veri.txt) üzerine yazılmaktadır. Ayrıca okunan anlık veriler SQLite3 veritabanı yönetim sistemine kayıt olarak depolanmaktadır. Kayıt olarka eklenen verilere ait ekran görüntüsü:
+![](./assets/image-11.png)
 
 ## Kural Motoru
 Üç fazlı sayaç için oluşturulmuş kural motoru:
@@ -51,8 +52,12 @@ Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenm
 Endüktif veya kapasitif uygunsuz tüketim gerçekleştiğinde alarm vermektedir.
 
 ## Örnek Görsel Arayüz
-Web sayfası arayüzüne ait ![HIPO diyagramı](./assets/image-2.png)
-![arayüz](./assets/image-7.png) ve ![arayüzün devamı](./assets/image-8.png) 
+Web sayfası arayüzüne ait HIPO diyagramı:
+![](./assets/image-2.png)
+
+Sunum katmanı arayüzü:
+![arayüz](./assets/image-7.png)
+![arayüzün devamı](./assets/image-8.png) 
 
 ## İletişim
 koray.cn@hotmail.com
