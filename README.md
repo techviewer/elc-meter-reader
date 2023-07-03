@@ -35,8 +35,9 @@ python -m pip install -U -r requirements.txt
 Daha sonra [main.py](./main.py) dosyasındaki "[METER_PHASE_TYPE](./main.py#L26)" değişkenine sayaç bir fazlı ise 1, üç fazlı ise 3 ataması yapılması yeterlidir.
 
 ## Kullanım
-Raspbian işletim sistemi içerisinde LX konsol uygulası olan program Python dili ile yazılmıştır. [main.py](./main.py) python3 ile çalıştırıldığında bir okuma döngüsü sonrası konsol ekranında görünen çıktı aşağıda görülmektedir.
-![Konsol çalışmasına ait ekran görüntüsü](./assets/image-9.png) ve ![Konsol çalışmasına ait ekran görüntüsü devamı](./assets/image-10.png)
+Raspbian işletim sistemi içerisinde LX konsol uygulası olan program Python dili ile yazılmıştır. [main.py](./main.py) python3 ile çalıştırıldığında bir okuma döngüsü sonrası konsol ekranında görünen çıktıya ait ekran görüntüsü aşağıda görülmektedir.
+![Konsol çalışmasına ait ekran görüntüsü](./assets/image-9.png) 
+![Konsol çalışmasına ait ekran görüntüsü devamı](./assets/image-10.png)
 
 ## Donanım Bağlantısı
 Elektirik sayacı ile Raspberry Pi arasındaki bağlantı:
