@@ -38,7 +38,8 @@ Raspbian işletim sistemi içerisinde LX konsol uygulası olan program Python di
 ![Konsol çalışmasına ait ekran görüntüsü](./assets/image-9.png) ve ![Konsol çalışmasına ait ekran görüntüsü devamı](./assets/image-10.png)
 
 ## Donanım Bağlantısı
-![Elektirik sayacı ile Raspberry Pi arasındaki bağlantı](./assets/image-6.png).
+Elektirik sayacı ile Raspberry Pi arasındaki bağlantı:
+![](./assets/image-6.png)
 
 ## Sayaç Veri Okuması
 Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait ![sıralama (sequence) diyagramı](./assets/image-5.png) ve ![açıklaması](./assets/image-4.png)
@@ -46,7 +47,7 @@ Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenm
 
 ## Kural Motoru
 Üç fazlı sayaç için oluşturulmuş kural motoru:
-![üç fazlı sayaç için oluşturulmuş kural motoru](./assets/image-3.jpg)
+![üç fazlı sayaç için oluşturulmuş kural motoru](./assets/image-3.png)
 Endüktif veya kapasitif uygunsuz tüketim gerçekleştiğinde alarm vermektedir.
 
 ## Örnek Görsel Arayüz
