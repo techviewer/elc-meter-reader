@@ -42,7 +42,9 @@ Elektirik sayacı ile Raspberry Pi arasındaki bağlantı:
 ![](./assets/image-6.png)
 
 ## Sayaç Veri Okuması
-Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait ![sıralama (sequence) diyagramı](./assets/image-5.png) ve ![açıklaması](./assets/image-4.png)
+Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait sıralama (sequence) diyagramı ve açıklaması:
+![sıralama (sequence) diyagramı](./assets/image-5.png) ve ![açıklaması](./assets/image-4.png)
+
 Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenmek üzere ![metin dosyası](./Elektrik_Sayacı_Anlık_Veri.txt) üzerine yazılmaktadır. Ayrıca okunan anlık veriler SQLite3 veritabanı yönetim sistemine kayıt olarak depolanmaktadır. Kayıt olarka eklenen verilere ait ekran görüntüsü:
 ![](./assets/image-11.png)
 
