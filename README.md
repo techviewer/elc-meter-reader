@@ -11,7 +11,8 @@ Bu projede üç fazlı aktif-reaktif (kombi) elektronik elektrik sayaçlarından
   * [İletişim](#İletişim)
 
 ## Hakkında
-Bu çalışmada elektrik sayaç verileri IEC 62056-21 standardı Mod C protokolüne ile okuması gerçekleştirilmiştir. Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veritabanı yönetim sistemine kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir vertabanı yönetim sistemi oluşturulmuştur. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir. 
+Bu çalışmada elektrik sayaç verileri IEC 62056-21 standardı Mod C protokolüne ile okuması gerçekleştirilmiştir. Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veritabanı yönetim sistemine kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir vertabanı yönetim sistemi oluşturulmuştur. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir.
+Kullanılan yönteme ait ![veri akış diyagramı](./assets/image-1.png)
 
 ## Gereksinimler
 | Derleyici | Sürüm |
@@ -33,21 +34,24 @@ python -m pip install -U -r requirements.txt
 Daha sonra [main.py](./main.py) dosyasındaki "[METER_PHASE_TYPE](./main.py#L26)" değişkenine sayaç bir fazlı ise 1, üç fazlı ise 3 ataması yapılması yeterlidir.
 
 ## Kullanım
-Kullanım
+Raspbian işletim sistemi içerisinde LX konsol uygulası olan program Python dili ile yazılmıştır. [main.py](./main.py) python3 ile çalıştırıldığında bir okuma döngüsü sonrası konsol ekranında görünen çıktı aşağıda görülmektedir.
+![Konsol çalışmasına ait ekran görüntüsü](./assets/image-9.png) ve ![Konsol çalışmasına ait ekran görüntüsü devamı](./assets/image-10.png)
 
 ## Donanım Bağlantısı
-![Elektirik sayacı ile Raspberry Pi arasındaki bağlantı](./assets).
+![Elektirik sayacı ile Raspberry Pi arasındaki bağlantı](./assets/image-6.png).
 
 ## Sayaç Veri Okuması
-Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait ![sıralama (sequence) diyagramı](./assets/) ve ![açıklaması](./assets)
+Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait ![sıralama (sequence) diyagramı](./assets/image-5.png) ve ![açıklaması](./assets/image-4.png)
+Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenmek üzere ![metin dosyası](./Elektrik_Sayacı_Anlık_Veri.txt) üzerine yazılmaktadır. Ayrıca okunan anlık veriler SQLite3 veritabanı yönetim sistemine kayıt olarak depolanmaktadır. ![Kayıt olarka eklenen verilere ait ekran görüntüsü](./assets/image-11.png)
 
 ## Kural Motoru
 Üç fazlı sayaç için oluşturulmuş kural motoru:
-![üç fazlı sayaç için oluşturulmuş kural motoru](./assets/image-1.jpg)
+![üç fazlı sayaç için oluşturulmuş kural motoru](./assets/image-3.jpg)
 Endüktif veya kapasitif uygunsuz tüketim gerçekleştiğinde alarm vermektedir.
 
 ## Örnek Görsel Arayüz
-![arayüz](./assets/image-2.png)
+Web sayfası arayüzüne ait ![HIPO diyagramı](./assets/image-2.png)
+![arayüz](./assets/image-7.png) ve ![arayüzün devamı](./assets/image-8.png) 
 
 ## İletişim
 koray.cn@hotmail.com
