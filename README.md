@@ -36,30 +36,38 @@ Daha sonra [main.py](./main.py) dosyasındaki "[METER_PHASE_TYPE](./main.py#L26)
 
 ## Kullanım
 Raspbian işletim sistemi içerisinde LX konsol uygulası olan program Python dili ile yazılmıştır. [main.py](./main.py) python3 ile çalıştırıldığında bir okuma döngüsü sonrası konsol ekranında görünen çıktıya ait ekran görüntüsü aşağıda görülmektedir.
+
 ![Konsol çalışmasına ait ekran görüntüsü](./assets/image-9.png) 
 ![Konsol çalışmasına ait ekran görüntüsü devamı](./assets/image-10.png)
 
 ## Donanım Bağlantısı
 Elektirik sayacı ile Raspberry Pi arasındaki bağlantı:
+
 ![](./assets/image-6.png)
 
 ## Sayaç Veri Okuması
 Elektrik sayacından IEC 62056-21 standardı Mod C protokolüne ile okumasına ait sıralama (sequence) diyagramı ve açıklaması:
+
 ![sıralama (sequence) diyagramı](./assets/image-5.png) ve ![açıklaması](./assets/image-4.png)
 
 Elektronik elektrik sayacından okunan anlık veriler olası durumlarda incelenmek üzere ![metin dosyası](./Elektrik_Sayacı_Anlık_Veri.txt) üzerine yazılmaktadır. Ayrıca okunan anlık veriler SQLite3 veritabanı yönetim sistemine kayıt olarak depolanmaktadır. Kayıt olarka eklenen verilere ait ekran görüntüsü:
+
 ![](./assets/image-11.png)
 
 ## Kural Motoru
 Üç fazlı sayaç için oluşturulmuş kural motoru:
+
 ![üç fazlı sayaç için oluşturulmuş kural motoru](./assets/image-3.png)
-Endüktif veya kapasitif uygunsuz tüketim gerçekleştiğinde alarm vermektedir.
+
+Endüktif veya kapasitif uygunsuz tüketim gerçekleştiğinde sistem uyarı ve alarm vermektedir.
 
 ## Örnek Görsel Arayüz
 Web sayfası arayüzüne ait HIPO diyagramı:
+
 ![](./assets/image-2.png)
 
 Sunum katmanı arayüzü:
+
 ![arayüz](./assets/image-7.png)
 ![arayüzün devamı](./assets/image-8.png) 
 
