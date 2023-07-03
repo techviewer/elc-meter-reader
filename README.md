@@ -11,6 +11,10 @@ Bu projede üç fazlı aktif-reaktif (kombi) elektronik elektrik sayaçlarından
   * [İletişim](#İletişim)
 
 ## Hakkında
+Bu çalışma dönem projesi kapsamında yapılan bir araştırma ve geliştirme uygulamasıdır. Konusu ise "Nesnelerin İnterneti ile reaktif enerji tüketiminin uzaktan izlenmesi ve veri analizi"dir.
+
+Bu süreçte emeğinden ötürü proje danışmanım ![Prof. Dr. Sedat AKLEYLEK](https://akademik.yok.gov.tr/AkademikArama/view/viewAuthor.jsp)'e teşekkür ederim. 
+
 Bu çalışmada elektrik sayaç verileri IEC 62056-21 standardı Mod C protokolüne ile okuması gerçekleştirilmiştir. Sayaç okuma verileri [Raspberry Pi](https://www.raspberrypi.com/) üzerinde koşan [SQLite3](https://www.sqlite.org/) veritabanı yönetim sistemine kayıt edilmektedir. Üç fazlı elektronik kombi sayaçlar ve bir fazlı elektronik elektrik sayaçları için ayrı bir vertabanı yönetim sistemi oluşturulmuştur. Hangi türden sayaç kullanılacak ise [main.py](./main.py)'de sayaç türü belirtilmesi ([bkz.](#kurulum)) diğer modüllerin yüklenmesini tetikleyecektir.
 Kullanılan yönteme ait veri akış diyagramı:
 ![veri akış diyagramı](./assets/image-1.png)
